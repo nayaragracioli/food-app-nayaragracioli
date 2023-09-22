@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.container.sm{
+    max-width: 680px;
+}
+
+.section-red{
+    background: var(--color-red);
+}
+
+.section-green{
+    background: var(--color-green);
+}
+
+.section-padding{
+    padding: clamp(2rem, 6vw, 5.625rem) 0;
+}
+

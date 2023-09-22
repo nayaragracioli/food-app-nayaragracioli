@@ -1,0 +1,28 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="password"],
+.form select{
+    width: 100%;
+    padding: 0 1.875rem;
+    height: 3.625rem;
+
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: var(--color-white);
+
+    border-radius: 255px;
+
+    border: 2px solid var(--color-white);
+}
+
+.form input::placeholder{
+    color: var(--color-white50);
+}

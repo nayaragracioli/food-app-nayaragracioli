@@ -1,0 +1,32 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+
+    height: 3.25rem;
+
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: var(--color-white);
+
+    border-radius: 255px;
+    padding: 0 2.5rem;
+
+    transition: .4s;
+}
+
+.btn.red{
+    background: var(--color-red);
+}
+
+.btn.green{
+    background: var(--color-green);
+}
+
+.btn:hover{
+    filter: brightness(1.1);
+}
